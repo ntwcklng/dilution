@@ -20,11 +20,7 @@
     "node": "> 6.0.0"
   },
   "lint-staged": {
-    "*.js": [
-      "npm run lint",
-      "prettier --single-quote --no-semi --write",
-      "git add"
-    ]
+    "*.js": ["prettier --single-quote --no-semi --write", "git add"]
   },
   "bugs": {
     "url": "https://github.com/ntwcklng/dilution/issues"
