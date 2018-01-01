@@ -4,12 +4,23 @@
   "description": "Calculate the dilution of 2 parts",
   "main": "index.js",
   "scripts": {
-    "test": "ava"
+    "test": "ava",
+    "precommit": "lint-staged"
   },
   "keywords": [],
   "author": "Marvin Mieth <ntwcklng@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "ava": "^0.24.0"
+  },
+  "repository": "ntwcklng/dilution",
+  "engines": {
+    "node": "> 6.0.0"
+  },
+  "lint-staged": {
+    "*.js": ["npm run lint", "prettier --single-quote --write", "git add"]
+  },
+  "bugs": {
+    "url": "https://github.com/ntwcklng/dilution/issues"
   }
 }
