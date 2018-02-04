@@ -1,6 +1,6 @@
 {
   "name": "dilution",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Calculate the dilution of 2 parts",
   "main": "index.js",
   "scripts": {
