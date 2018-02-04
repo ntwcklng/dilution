@@ -1,4 +1,7 @@
-module.exports = (part1 = 0, part2 = 0, bottle = 0) => {
+module.exports = function(part1, part2, bottle) {
+  part1 = part1 || 0
+  part2 = part2 || 0
+  bottle = bottle || 0
   const reg = /^\d+$/
   if (!reg.test(part1) || !reg.test(part2) || !reg.test(part1)) {
     throw new Error('Please specify only numbers')
