@@ -14,11 +14,11 @@ npm install --save dilution
 
 ## Usage
 
-```js
-const dilution = require('dilution')
+```ts
+import dilution from "dilution";
 
-console.log(dilution(1, 2, 500)) //=> { part1: '167', part2: '333' }
-console.log(dilution(50, 50, 500)) //=> { part1: '250', part2: '250' }
+console.log(dilution({ part1: 1, part2: 2, bottle: 500 })); //=> { part1: '167', part2: '333' }
+console.log(dilution({ part1: 50, part2: 50, bottle: 500 })); //=> { part1: '250', part2: '250' }
 ```
 
 ## License
