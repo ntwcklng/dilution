@@ -1,29 +1,26 @@
 {
   "name": "dilution",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Calculate the dilution of 2 parts",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "test": "ava",
-    "precommit": "lint-staged"
+    "test": "ava"
   },
   "keywords": [],
   "author": "Marvin Mieth <ntwcklng@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "ava": "^0.25.0",
-    "lint-staged": "^6.1.0",
-    "prettier": "^1.10.2"
+    "lint-staged": "^6.1.1",
+    "prettier": "^1.19.1",
+    "typescript": "^5.7.3"
   },
-  "repository": "ntwcklng/dilution",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntwcklng/dilution.git"
+  },
   "engines": {
-    "node": "> 6.0.0"
-  },
-  "lint-staged": {
-    "*.js": [
-      "prettier --single-quote --no-semi --write",
-      "git add"
-    ]
+    "node": "> 20.0.0"
   },
   "bugs": {
     "url": "https://github.com/ntwcklng/dilution/issues"
